@@ -3,8 +3,9 @@ title: "Random-Walker"
 date: 2024-05-28
 #technique 1
 ---
-#variation: One
-![screenshot of code](https://righlow.github.io/My-Coding-Blog/_posts/2024-0-28-RandomWalker.md/RandomW.variation1.png)
+<h1>variation: One</h1>
+
+<img src="/skills-github-pages/RandomW.variation1.png" alt="alt text" width="600" height="100">
 <p>//var numSamples=50;
 
 function setup() {
