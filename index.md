@@ -3,7 +3,7 @@ title: "Random-Walker"
 date: 2024-05-28
 #technique 1
 ---
-##variation: One
+#variation: One
 ![screenshot of code](https://righlow.github.io/My-Coding-Blog/_posts/2024-0-28-RandomWalker.md/RandomW.variation1.png)
 <p>//var numSamples=50;
 
