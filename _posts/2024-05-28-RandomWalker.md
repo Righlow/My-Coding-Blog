@@ -30,5 +30,57 @@ function draw() {
 
 ```
 
-In this post I played around with the Random walker and in this first variation simply on changed the number of var samples and as well as the noise which is set to 0.04.This is relatively low as noise refers to how the dirfferent points are spaced out on the from the range of the previous value.The closer the values are the smoother the random walker becomes.
+In this post I played around with the Random walker and in this first variation simply on changed the number of var samples and as well as the noise which is set to 0.04.This is relatively low as noise refers to how the dirfferent points are spaced out on the from the range of the previous value.The closer the values are the smoother the random walker becomes.I used this as a foundation for the next variations below if you look at the first phot i put i decided to make it more smooth by lowering the noise.I used the example below as inspiration for my second variation.
 [example](/My-Coding-Blog/codeExperiments/BasicVariation/index.html)
+
+# Variation: Two
+
+<img src="/My-Coding-Blog/images/RandomW.variation2.png" alt="some text" width="80%">
+
+```
+let x, y;
+
+function setup() {
+  createCanvas(600, 600);
+  x = width / 2;
+  y = height / 2;
+  background(220);
+  //noLoop()
+ 
+}
+
+function draw() {
+  // Random color and transparency
+  let r = random(255);
+  let g = random(255);
+  let b = random(255);
+  let alpha = random(50, 100);
+  
+  stroke(r, g, b, alpha);
+  strokeWeight(30);
+  point(x, y);
+
+  // Weighted random choice for direction
+  let choice = random(50);
+  let stepSize = random(15,20); // Varying step size
+
+  if (choice < 40) { // 40% chance to move right
+    x += stepSize;
+  } else if (choice < 20) { // 20% chance to move left
+    x -= stepSize;
+  } else if (choice < 20) { // 20% chance to move down
+    y += stepSize;
+  } else { // 20% chance to move up
+    y -= stepSize;
+  }
+
+  // Wrap around edges to create continuous movement
+  if (x > width) x = 0;
+  if (x < 0) x = width;
+  if (y > height) y = 0;
+  if (y < 0) y = height;
+}
+```
+ In this varioation i basicallly draw a point that Randomly changes color, the point moves in various directions and step sizes and when it hits the edge of the canvas it wraps around the opposite edge creating a continous colorful dynamic movement while the colors and the transparency changes every frame.
+
+
