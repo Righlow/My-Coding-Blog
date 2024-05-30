@@ -3,9 +3,9 @@ title: "Random-Walker"
 date: 2024-05-28
 #technique 1
 ---
-<h1>variation: One</h1>
+#variation: One
 
-<img src="/My-coding-Blog/images/RandomW.variation1.png" alt="some text" width="20%"
+<img src="/My-Coding-Blog/images/RandomW.variation1.png" alt="some text" width="20%"
 
 
 
