@@ -9,6 +9,8 @@ date: 2024-05-28
 
 
 ```
+
+var numSamples=70;
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
