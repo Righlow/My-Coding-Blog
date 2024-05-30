@@ -5,7 +5,7 @@ date: 2024-05-28
 ---
 <h1>variation: One</h1>
 
-<img src="/skills-github-pages/RandomW.variation1.png" alt="alt text" width="600" height="100">
+<img src="/My-coding-Blog/images/RandomW.variation1.png" alt="some text" width="20%"
 
 
 
