@@ -25,6 +25,8 @@ function draw() {
   }
   endShape(CLOSE);
 }
+
 ```
 
 In this post I played around with the Random walker and in this first variation simply on changed the number of var samples and as well as the noise which is set to 0.04.This is relatively low as noise refers to how the dirfferent points are spaced out on the from the range of the previous value.The closer the values are the smoother the random walker becomes.
+[example](/My-Coding-Blog/codeExperiments/clickables/index.html)
