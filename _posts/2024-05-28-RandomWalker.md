@@ -83,4 +83,11 @@ function draw() {
 ```
  In this varioation i basicallly draw a point that Randomly changes color, the point moves in various directions and step sizes and when it hits the edge of the canvas it wraps around the opposite edge creating a continous colorful dynamic movement while the colors and the transparency changes every frame.For the draw function i started off by creating Random method to randomly generate  color for the dots. which will either appear as red,green,blue, transparent which is alpha.Let choice generates random values between 0 and 50 while the let step size variable generates random step sizes between 15 and 20.The if statements checks the value 'choice' and this will determine the direction and movement.Lastly the other if statement ensure that the points can move beyound the edges.
 
+ # Variation: Three
+
+ In this Third sketch , each I started by creating a 500 x 500 canvas which divides itself into 150x150 tiles.In each of the frames rectangles are drawn and each is positioned in the centre of its grid cell. The rotation in this sketch is determined by its position in the grid to ultimately create a dynamic rotating pattern in the end.This has to be my favourite sketch tht I have yet to have made.
+
+
+ Step stores the size of each indivdual cell while num across is the number of tile running along both vertailly and horizontally.In the draw function a nested loop is created to iterate through each position on the grid.The draw tile function has a push,pop,translate,rectmode and rectmode changes the way the rectngels are drawn reltaive to origin, while 'rotate' rotates the coordinate system by angle that changes over time.
+
 
