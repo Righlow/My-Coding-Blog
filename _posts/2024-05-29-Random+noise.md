@@ -4,7 +4,7 @@
 
 
 
-In this variation i build up on it from a demo we created in class,what i aimed to create was to change the color of the pixels to either red,green or blue this change in the different colors was supported by a for loop which could loop overe the different colors.All the pixels will upwards vertically with s4veral different noise patterns which are random.I manged to change the noise change to 0.4 in order to create different patterns of the perlin noise.The noise field is 40 and 0.1.
+In this variation i build up on it from a demo we created in class,what i aimed to create was to change the color of the pixels to either red,green or blue this change in the different colors was supported by a for loop which could loop overe the different colors.All the pixels will upwards vertically with several different noise patterns which are random.I manged to change the noise change to 0.4 in order to create different patterns of the perlin noise.The noise field is 40 and 0.1.
 
 
 
@@ -41,6 +41,17 @@ function noiseField(steps, noisiness) {
   }
 }
 ```
+
+
+#Varition: two
+
+with this variation i did not change too much as i wanted to see the effects of changing the noise change for various colors to 0.9 from 0.5.
+For some time i have struggled a bit with grasping this noise and random technique but by change one small variable helped and comparing the two outcome has helped me to understand it a bit betterr.
+
+
+
+<img src="/My-Coding-Blog/images/Noise23.png" alt="some text" width="80%">
+
 
 
 
