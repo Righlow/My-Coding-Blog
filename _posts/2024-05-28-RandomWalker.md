@@ -83,7 +83,7 @@ function draw() {
  In this varioation i basicallly draw a point that Randomly changes color, the point moves in various directions and step sizes and when it hits the edge of the canvas it wraps around the opposite edge creating a continous colorful dynamic movement while the colors and the transparency changes every frame.For the draw function i started off by creating Random method to randomly generate  color for the dots. which will either appear as red,green,blue, transparent which is alpha.Let choice generates random values between 0 and 50 while the let step size variable generates random step sizes between 15 and 20.The if statements checks the value 'choice' and this will determine the direction and movement.Lastly the other if statement ensure that the points can move beyound the edges.
 
  # Variation: Three
- <img src="/My-Coding-Blog/png" alt="some text" width="80%">
+ <img src="/My-Coding-Blog/images/Noise21.png" alt="some text" width="80%">
  [example](/My-Coding-Blog/codeExperiments/Noise20/index.html)
  
 
