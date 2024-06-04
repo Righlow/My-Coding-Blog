@@ -5,7 +5,6 @@ date: 2024-05-28
 ---
 # Variation: One
 
-<img src="/My-Coding-Blog/images/RandomW.variation1.png" alt="some text" width="80%">
 
 
 ```
