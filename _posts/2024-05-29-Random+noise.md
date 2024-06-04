@@ -1,4 +1,5 @@
 # Variation One 
+In this variation i build up on it from a demo we created in class,what i aimed to create was to change the color of the pixels to either red,green or blue this change in the different colors was supported by a for loop which could loop overe the different colors.All the pixels will upwards vertically with s4veral different noise patterns which are random.I manged to change the noise change to 0.4 in order to create different patterns of the perlin noise.The noise field is 40 and 0.1.
 
 
 
