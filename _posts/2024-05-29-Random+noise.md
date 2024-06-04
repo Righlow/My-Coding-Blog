@@ -1,5 +1,5 @@
 # Variation One 
-<img src="/My-Coding-Blog/images/Noise22.variation2.png" alt="some text" width="80%">
+<img src="/My-Coding-Blog/images/Noise22.png" alt="some text" width="80%">
 
 
 
@@ -43,7 +43,7 @@ function noiseField(steps, noisiness) {
 ```
 
 
-#Varition: two
+# Varition: two
 
 with this variation i did not change too much as i wanted to see the effects of changing the noise change for various colors to 0.9 from 0.5.
 For some time i have struggled a bit with grasping this noise and random technique but by change one small variable helped and comparing the two outcome has helped me to understand it a bit betterr.
@@ -52,6 +52,9 @@ For some time i have struggled a bit with grasping this noise and random techniq
 
 <img src="/My-Coding-Blog/images/Noise23.png" alt="some text" width="80%">
 
+# variation: three
+
+With this variation i wanted to try and add form of noise to the third variation i used for the Random-walker technique and seeing what sort of effect it has on the sketch.I simply took noisefield function and 
 
 
 
