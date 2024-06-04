@@ -53,10 +53,37 @@ For some time i have struggled a bit with grasping this noise and random techniq
 <img src="/My-Coding-Blog/images/Noise23.png" alt="some text" width="80%">
 
 # variation: three
+<img src="/My-Coding-Blog/images/Noise25.png" alt="some text" width="80%">
+```
+function setup() {
+  createCanvas(400, 400);
+}
 
-With this variation i wanted to try and add form of noise to the third variation i used for the Random-walker technique and seeing what sort of effect it has on the sketch.I simply took noisefield function and 
+function draw() {
+  background(220);
+  noiseField(40, 0.1);
+}
 
+function noiseField(steps, noisiness) {
+  let stepSize = width / steps;
+  let noiseChange = 22;
+  noStroke();
+  for (let j = 0; j < steps; j++) {
+    for (let i = 0; i < steps; i++) {
+      let noiseHere = noise(i * noisiness, j * noisiness + frameCount * noiseChange, +frameCount * noiseChange * 0.9);
+      let r = noiseHere * 255;
+      let g = noise((i + 100) * noisiness, (j + 100) * noisiness + frameCount * noiseChange, +frameCount * noiseChange * 0.9) * 255;
+      let b = noise((i + 200) * noisiness, (j + 200) * noisiness + frameCount * noiseChange, +frameCount * noiseChange * 0.9) * 255;
+      fill(r, g, b);
+      rect(i * stepSize, j * stepSize, stepSize, stepSize);
+    }
+  }
+}
+```
 
+With this variation i wanted to try and add a higher level of noise by changing the noise change to 22, after seeing this effect i finally realized that the  noise that the higher the noise change value is, the louder the noise and pixels will appear and they would sort of blink a fast rantes.
+
+<img src="/My-Coding-Blog/images/Noise25.png" alt="some text" width="80%">
 
 
 
