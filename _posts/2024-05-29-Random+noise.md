@@ -53,7 +53,7 @@ For some time i have struggled a bit with grasping this noise and random techniq
 <img src="/My-Coding-Blog/images/Noise23.png" alt="some text" width="80%">
 
 # variation: three
-<img src="/My-Coding-Blog/images/Noise25.png" alt="some text" width="80%">
+<img src="/My-Coding-Blog/images/Noise26.png" alt="some text" width="80%">
 ```
 function setup() {
   createCanvas(400, 400);
